@@ -1,0 +1,129 @@
+<html>
+<head>
+	<title>calculator</title>
+	<link rel="stylesheet" href="calc.css">
+	<script>
+		var storednumber=0;
+		var operator='';
+		var currentnumber=0;
+
+		function handleOperator(op) {
+			if (operator=='') {
+				storednumber=currentnumber;
+				document.getElementById('nftext').innerHTML=storednumber;
+			}
+			else if (operator=='+') {
+				storednumber+=currentnumber;
+
+				document.getElementById('nftext').innerHTML=storednumber;
+			}
+
+			else if (operator=='-') {
+				storednumber-=currentnumber;
+				document.getElementById('nftext').innerHTML=storednumber;
+			}
+			else if (operator=='*') {
+				storednumber*=currentnumber;
+				document.getElementById('nftext').innerHTML=storednumber;
+			}
+			else if (operator=='/') {
+				storednumber/=currentnumber;
+				document.getElementById('nftext').innerHTML=storednumber;
+			}
+
+			else if (operator=='=') {
+				storednumber=currentnumber;
+				document.getElementById('nftext').innerHTML=storednumber;
+			}
+			currentnumber=0;
+			operator=op;
+		}
+
+		  
+	</script>
+</head>
+
+<body>
+	<img src="calcimage/s1.png" id="star1" class="star-theme" onclick="currentnumber=(currentnumber*10)+1;document.getElementById('nftext').innerHTML = currentnumber;">
+	<img src="calcimage/s2.png" id="star2" class="star-theme" onclick="currentnumber=(currentnumber*10)+2;document.getElementById('nftext').innerHTML = currentnumber;">
+	<img src="calcimage/s3.png" id="star3" class="star-theme" onclick="currentnumber=(currentnumber*10)+3;document.getElementById('nftext').innerHTML = currentnumber;">
+	<img src="calcimage/s4.png" id="star4" class="star-theme" onclick="currentnumber=(currentnumber*10)+4;document.getElementById('nftext').innerHTML = currentnumber;">
+	<img src="calcimage/s5.png" id="star5" class="star-theme" onclick="currentnumber=(currentnumber*10)+5;document.getElementById('nftext').innerHTML = currentnumber;">
+	<img src="calcimage/s6.png" id="star6" class="star-theme" onclick="currentnumber=(currentnumber*10)+6;document.getElementById('nftext').innerHTML = currentnumber;">
+	<img src="calcimage/s7.png" id="star7" class="star-theme" onclick="currentnumber=(currentnumber*10)+7;document.getElementById('nftext').innerHTML = currentnumber;">
+	<img src="calcimage/s8.png" id="star8" class="star-theme" onclick="currentnumber=(currentnumber*10)+8;document.getElementById('nftext').innerHTML = currentnumber;">
+	<img src="calcimage/s9.png" id="star9" class="star-theme" onclick="currentnumber=(currentnumber*10)+9;document.getElementById('nftext').innerHTML = currentnumber;">
+	<img src="calcimage/s0.png" id="star0" class="star-theme" onclick="currentnumber=(currentnumber*10)+0;document.getElementById('nftext').innerHTML = currentnumber;">
+	<img src="calcimage/sdot.png" id="stardot" class="star-theme" onclick="numberfield.value += '.'">
+	<img src="calcimage/sback.png" id="sback" class="star-theme" onclick="">
+	<img src="calcimage/sac.png" id="sac" class="star-theme" onclick="currentnumber=0; currentnumber=0; operator='';document.getElementById('nftext').innerHTML=currentnumber;">
+	<img src="calcimage/s-.png" id="sminus" class="star-theme" onclick="handleOperator('-');">
+	<img src="calcimage/s+.png" id="splus" class="star-theme" onclick="handleOperator('+')">
+	<img src="calcimage/s×.png" id="stime" class="star-theme" onclick="handleOperator('*')">
+	<img src="calcimage/s÷.png" id="sdivide" class="star-theme" onclick="handleOperator('/')">
+	<img src="calcimage/s=.png" id="sequal" class="star-theme" onclick="handleOperator('=')">
+
+	<img src="calcimage/c1.png" id="coco1" class="coco-theme" onclick="currentnumber=(currentnumber*10)+1;document.getElementById('nftext').innerHTML = currentnumber">
+	<img src="calcimage/c2.png" id="coco2" class="coco-theme" onclick="currentnumber=(currentnumber*10)+2;document.getElementById('nftext').innerHTML = currentnumber">
+	<img src="calcimage/c3.png" id="coco3" class="coco-theme" onclick="currentnumber=(currentnumber*10)+3;document.getElementById('nftext').innerHTML = currentnumber">
+	<img src="calcimage/c4.png" id="coco4" class="coco-theme" onclick="currentnumber=(currentnumber*10)+4;document.getElementById('nftext').innerHTML = currentnumber">
+	<img src="calcimage/c5.png" id="coco5" class="coco-theme" onclick="currentnumber=(currentnumber*10)+5;document.getElementById('nftext').innerHTML = currentnumber">
+	<img src="calcimage/c6.png" id="coco6" class="coco-theme" onclick="currentnumber=(currentnumber*10)+6;document.getElementById('nftext').innerHTML = currentnumber">
+	<img src="calcimage/c7.png" id="coco7" class="coco-theme" onclick="currentnumber=(currentnumber*10)+7;document.getElementById('nftext').innerHTML = currentnumber">
+	<img src="calcimage/c8.png" id="coco8" class="coco-theme" onclick="currentnumber=(currentnumber*10)+8;document.getElementById('nftext').innerHTML = currentnumber">
+	<img src="calcimage/c9.png" id="coco9" class="coco-theme" onclick="currentnumber=(currentnumber*10)+9;document.getElementById('nftext').innerHTML = currentnumber">
+	<img src="calcimage/c0.png" id="coco0" class="coco-theme" onclick="currentnumber=(currentnumber*10)+0;document.getElementById('nftext').innerHTML = currentnumber">
+	<img src="calcimage/cdot.png" id="cocodot" class="coco-theme" onclick="currentnumber=(currentnumber*10)+0;document.getElementById('nftext').innerHTML = currentnumber">
+	<img src="calcimage/cback.png" id="cback" class="coco-theme" >
+	<img src="calcimage/cmin.png" id="cminus" class="coco-theme" onclick="handleOperator('-')">
+	<img src="calcimage/cplus.png" id="cplus" class="coco-theme" onclick="handleOperator('+')">
+	<img src="calcimage/ctimes.png" id="ctimes" class="coco-theme" onclick="handleOperator('*')">
+	<img src="calcimage/cdiv.png" id="cdivide" class="coco-theme" onclick="handleOperator('/')">
+	<img src="calcimage/cac.png" id="cac" class="coco-theme">
+	<img src="calcimage/cequal.png" id="ceq" class="coco-theme">
+
+
+	<img src="calcimage/L1.png" id="lemon1" class="lemon-theme" onclick="storednumber=(storednumber*10)+1;document.getElementById('nftext').innerHTML = storednumber">
+	<img src="calcimage/L2.png" id="lemon2" class="lemon-theme" onclick="storednumber=(storednumber*10)+2;document.getElementById('nftext').innerHTML = storednumber">
+	<img src="calcimage/L3.png" id="lemon3" class="lemon-theme" onclick="storednumber=(storednumber*10)+3;document.getElementById('nftext').innerHTML = storednumber">
+	<img src="calcimage/L4.png" id="lemon4" class="lemon-theme" onclick="storednumber=(storednumber*10)+4;document.getElementById('nftext').innerHTML = storednumber">
+	<img src="calcimage/L5.png" id="lemon5" class="lemon-theme" onclick="storednumber=(storednumber*10)+5;document.getElementById('nftext').innerHTML = storednumber">
+	<img src="calcimage/L6.png" id="lemon6" class="lemon-theme" onclick="storednumber=(storednumber*10)+6;document.getElementById('nftext').innerHTML = storednumber">
+	<img src="calcimage/L7.png" id="lemon7" class="lemon-theme" onclick="storednumber=(storednumber*10)+7;document.getElementById('nftext').innerHTML = storednumber">
+	<img src="calcimage/L8.png" id="lemon8" class="lemon-theme" onclick="storednumber=(storednumber*10)+8;document.getElementById('nftext').innerHTML = storednumber">
+	<img src="calcimage/L9.png" id="lemon9" class="lemon-theme" onclick="storednumber=(storednumber*10)+9;document.getElementById('nftext').innerHTML = storednumber">
+	<img src="calcimage/L0.png" id="lemon0" class="lemon-theme" onclick="storednumber=(storednumber*10)+0;document.getElementById('nftext').innerHTML = storednumber">
+	<img src="calcimage/Ldot.png" id="lemondot" class="lemon-theme">
+	<img src="calcimage/Lminus.png" id="Lminus" class="lemon-theme" onclick="handleOperator('-')">
+	<img src="calcimage/Lplus.png" id="Lplus" class="lemon-theme" onclick="handleOperator('+')">
+	<img src="calcimage/Ltimes.png" id="Ltimes" class="lemon-theme" onclick="handleOperator('*')">
+	<img src="calcimage/Ldivide.png" id="Ldivide" class="lemon-theme"onclick="handleOperator('/')">
+	<img src="calcimage/Lac.png" id="Lac" class="lemon-theme">
+	<img src="calcimage/Leq.png" id="Lequal" class="lemon-theme" onclick="handleOperator('=')">
+	<img src="calcimage/Lback.png" id="Lback" class="lemon-theme">
+
+
+
+
+<div id="numberfield"><div id="nftext">0</div></div>
+
+<div>
+		<img src="calcimage/starlogo.png" id="starlogo" onclick="
+			document.querySelectorAll('.coco-theme, .lemon-theme').forEach(el => el.style.visibility = 'hidden');
+			document.querySelectorAll('.star-theme').forEach(el => el.style.visibility = 'visible');
+		">
+		<img src="calcimage/cocologo.png" id="cocologo" onclick="
+			document.querySelectorAll('.star-theme, .lemon-theme').forEach(el => el.style.visibility = 'hidden');
+			document.querySelectorAll('.coco-theme').forEach(el => el.style.visibility = 'visible');
+		">
+		<img src="calcimage/lemonlogo.png" id="lemonlogo" onclick="
+			document.querySelectorAll('.star-theme, .coco-theme').forEach(el => el.style.visibility = 'hidden');
+			document.querySelectorAll('.lemon-theme').forEach(el => el.style.visibility = 'visible');
+		">
+	</div>
+
+
+
+
+
+</body>

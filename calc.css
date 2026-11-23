@@ -1,0 +1,565 @@
+body{
+	overflow-x: hidden;
+}
+#star1{
+	height: 150px;
+	position: absolute;
+	top: 95%;
+	left: 17%;
+	visibility: hidden;
+}
+
+#star2{
+	height: 150px;
+	position: absolute;
+	top: 95%;
+	left: 30%;
+	visibility: hidden;
+}
+
+#star3{
+	height: 150px;
+	position: absolute;
+	top: 95%;
+	left: 43%;
+	visibility: hidden;
+}
+
+
+#star4{
+	height: 150px;
+	position: absolute;
+	top: 75%;
+	left: 17%;
+	visibility: hidden;
+}
+
+
+#star5{
+	height: 150px;
+	position: absolute;
+	top: 75%;
+	left: 30%;
+	visibility: hidden;
+}
+
+#star6{
+	height: 150px;
+	position: absolute;
+	top: 75%;
+	left: 43%;
+	visibility: hidden;
+}
+
+#star7{
+	height: 150px;
+	position: absolute;
+	top: 55%;
+	left: 17%;
+	visibility: hidden;
+}
+
+#star8{
+	height: 150px;
+	position: absolute;
+	top: 55%;
+	left: 30%;
+	visibility: hidden;
+
+}
+
+#star9{
+	height: 150px;
+	position: absolute;
+	top: 55%;
+	left: 43%;
+	visibility: hidden;
+
+}
+
+#star0{
+	height: 150px;
+	position: absolute;
+	left: 17%;
+	top: 114%;
+	visibility: hidden;
+}
+
+
+#stardot{
+	height: 150px;
+	position: absolute;
+	left: 30%;
+	top: 114%;
+	visibility: hidden;
+}
+
+
+
+#sback{
+	height: 950px;
+	z-index: -1;
+	position: absolute;
+	left: 20%;
+	border-radius: 35px;
+	visibility: hidden;
+	
+}
+
+#sac{
+	height: 105px;
+	position: absolute;
+	left: 59%;
+	top: 38%;
+	visibility: hidden;
+}
+
+
+
+#sminus{
+	height: 105px;
+	position: absolute;
+	left: 59%;
+	top: 95%;
+	visibility: hidden;
+}
+
+#splus{
+	height: 105px;
+	position: absolute;
+	left: 59%;
+	top: 116%;
+	visibility: hidden;
+}
+
+#stime{
+	height: 105px;
+	position: absolute;
+	left: 59%;
+	top: 75%;
+	visibility: hidden;
+}
+
+#sdivide{
+	height: 105px;
+	position: absolute;
+	left: 59%;
+	top: 58%;
+	visibility: hidden;
+}
+
+#sequal{
+	height: 113px;
+	position: absolute;
+	left: 47%;
+	top: 119%;
+	visibility: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#coco1{
+	height: 150px;
+	position: absolute;
+	top: 95%;
+	left: 17%;
+	visibility: hidden;
+}
+
+#coco2{
+	height: 150px;
+	position: absolute;
+	top: 95%;
+	left: 30%;
+	visibility: hidden;
+}
+
+#coco3{
+	height: 150px;
+	position: absolute;
+	top: 95%;
+	left: 43%;
+	visibility: hidden;
+}
+
+
+#coco4{
+	height: 150px;
+	position: absolute;
+	top: 75%;
+	left: 17%;
+	visibility: hidden;
+}
+
+
+#coco5{
+	height: 150px;
+	position: absolute;
+	top: 75%;
+	left: 30%;
+	visibility: hidden;
+}
+
+#coco6{
+	height: 150px;
+	position: absolute;
+	top: 75%;
+	left: 43%;
+	visibility: hidden;
+}
+
+#coco7{
+	height: 150px;
+	position: absolute;
+	top: 55%;
+	left: 17%;
+	visibility: hidden;
+}
+
+#coco8{
+	height: 150px;
+	position: absolute;
+	top: 55%;
+	left: 30%;
+	visibility: hidden;
+
+}
+
+#coco9{
+	height: 150px;
+	position: absolute;
+	top: 55%;
+	left: 43%;
+	visibility: hidden;
+
+}
+
+#coco0{
+	height: 150px;
+	position: absolute;
+	left: 17%;
+	top: 114%;
+	visibility: hidden;
+}
+
+
+#cocodot{
+	height: 150px;
+	position: absolute;
+	left: 30%;
+	top: 114%;
+	visibility: hidden;
+}
+
+
+
+#cback{
+	width: 2430px;
+	height: 1300px;
+	z-index: -1;
+	top: -11%;
+	left: -44%;
+	position: absolute;
+	border-radius: 35px;
+	visibility: hidden;
+	
+}
+
+#cac{
+	height: 110px;
+	position: absolute;
+	left: 55%;
+	top: 36%;
+	visibility: hidden;
+}
+
+
+
+#cminus{
+	height: 110px;
+	position: absolute;
+	left: 55%;
+	top: 98%;
+	visibility: hidden;
+}
+
+#cplus{
+	height: 110px;
+	position: absolute;
+	left: 55%;
+	top: 118%;
+	visibility: hidden;
+}
+
+#ctimes{
+	height: 110px;
+	position: absolute;
+	left: 55%;
+	top: 78%;
+	visibility: hidden;
+}
+
+#cdivide{
+	height: 110px;
+	position: absolute;
+	left: 55%;
+	top: 58%;
+	visibility: hidden;
+}
+
+#cequal{
+	height: 110px;
+	position: absolute;
+	left: 45%;
+	top: 118%;
+	visibility: hidden;
+}
+
+
+
+
+
+
+
+
+#lemon1{
+	height: 150px;
+	position: absolute;
+	top: 95%;
+	left: 17%;
+	visibility: visible;
+}
+
+#lemon2{
+	height: 150px;
+	position: absolute;
+	top: 95%;
+	left: 30%;
+	visibility: visible;
+}
+
+#lemon3{
+	height: 150px;
+	position: absolute;
+	top: 95%;
+	left: 43%;
+	visibility: visible;
+}
+
+
+#lemon4{
+	height: 150px;
+	position: absolute;
+	top: 75%;
+	left: 17%;
+	visibility: visible;
+}
+
+
+#lemon5{
+	height: 150px;
+	position: absolute;
+	top: 75%;
+	left: 30%;
+	visibility: visible;
+}
+
+#lemon6{
+	height: 150px;
+	position: absolute;
+	top: 75%;
+	left: 43%;
+	visibility: visible;
+}
+
+#lemon7{
+	height: 150px;
+	position: absolute;
+	top: 55%;
+	left: 17%;
+	visibility: visible;
+}
+
+#lemon8{
+	height: 150px;
+	position: absolute;
+	top: 55%;
+	left: 30%;
+	visibility: visible;
+
+}
+
+#lemon9{
+	height: 150px;
+	position: absolute;
+	top: 55%;
+	left: 43%;
+	visibility: visible;
+
+}
+
+#lemon0{
+	height: 150px;
+	position: absolute;
+	left: 17%;
+	top: 114%;
+	visibility: visible;
+}
+
+
+#lemondot{
+	height: 150px;
+	position: absolute;
+	left: 30%;
+	top: 114%;
+	visibility: visible;
+}
+
+
+
+#Lback{
+	width: 2000px;
+	z-index: -1;
+	top: -11%;
+	left: -30%;
+	position: absolute;
+	border-radius: 35px;
+	visibility: visible;
+	
+}
+
+#Lac{
+	height: 110px;
+	position: absolute;
+	left: 55%;
+	top: 36%;
+	visibility: visible;
+}
+
+#Lminus{
+	height: 110px;
+	position: absolute;
+	left: 55%;
+	top: 98%;
+	visibility: visible;
+}
+
+#Lplus{
+	height: 110px;
+	position: absolute;
+	left: 55%;
+	top: 118%;
+	visibility: visible;
+}
+
+#Ltimes{
+	height: 110px;
+	position: absolute;
+	left: 55%;
+	top: 78%;
+	visibility: visible;
+}
+
+#Ldivide{
+	height: 110px;
+	position: absolute;
+	left: 55%;
+	top: 58%;
+	visibility: visible;
+}
+
+#Lequal{
+	height: 110px;
+	position: absolute;
+	left: 45%;
+	top: 118%;
+	visibility: visible;
+}
+
+
+
+
+
+
+
+#numberfield {
+    position: absolute; 
+    top: 65px;          
+    left: 24%;         
+    width: 250px;       
+    text-align: right;
+    z-index: 10;        
+    pointer-events: none;
+    width: 550px;
+    height: 150px;
+    background-color: #275483;
+}
+
+#nftext{
+	font-family: 'Arial', sans-serif;
+    font-size: 98px;
+    font-weight: bold;
+    color: white;
+    padding-right: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+    top: 10%;
+}
+
+
+
+
+#starlogo{
+	height: 150px;
+	filter: brightness(50%);
+	display: block;
+	left: 95%;
+	
+}
+
+#starlogo:hover{
+	filter: brightness(100%);
+}
+
+
+
+
+#cocologo{
+	height: 150px;
+	filter: brightness(50%);
+	display: block;
+	left: 95%;
+	
+}
+
+#cocologo:hover{
+	filter: brightness(100%);
+}
+
+
+
+
+#lemonlogo{
+	height: 150px;
+	filter: brightness(50%);
+	display: block;
+	left: 95%;
+	
+}
+
+#lemonlogo:hover{
+	filter: brightness(100%);
+}
